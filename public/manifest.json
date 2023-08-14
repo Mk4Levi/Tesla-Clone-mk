@@ -1,0 +1,12 @@
+{
+  "short_name": "Tesla Clone",
+  "name": "Tesla Clone",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://bm-tesla-clone.netlify.app/",
+}
