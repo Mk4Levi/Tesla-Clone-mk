@@ -2,14 +2,13 @@
 
 ## Website Link => https://bm-tesla-clone.netlify.app/
 
-## => Tesla Clone developed using React. 
+## => Tesla Clone developed using React.
 
 ## Project's Screenshots =>
 
-![image](./src/assets/bg/ss1.png)
-![image](./src/assets/bg/ss2.png)
-![image](./src/assets/bg/ss3.png)
-![image](./src/assets/bg/ss4.png)
+![image](./src/assets/ss1.jpg)
+![image](./src/assets/ss2.jpg)
+![image](./src/assets/ss3.jpg)
 
 <h2>Getting Started</h2>
 
@@ -36,13 +35,13 @@ npm install
 5. Finally, host it on local server :
 
 ```bash
-npm run dev
+npm run start
 ```
 
 6. Now just search this link in your browser to view the live running application in your Local sysytem :
 
 ```bash
-http://localhost:5173
+http://localhost:3000
 ```
 
 <h2>Paths & Files</h2>
@@ -55,16 +54,9 @@ http://localhost:5173
 ├── src
 │   ├── assets/
 │   ├── components/
-|         └── AboutCard
-│         └── Footer.jsx
-|         └── Form.jsx
-│         └── Navbar.jsx
-|         └── Particle.jsx
-│         └── PreLoader.jsx
-|         └── ProjectCard.jsx
-│         └── ScrollToTop.jsx
-|         └── SkillCard.jsx
-│         └── Socials.jsx
+|         └── Header.js
+│         └── Footer.js
+|         └── Home.js
 │         └── index.js
 │
 │   ├── config/
@@ -74,29 +66,18 @@ http://localhost:5173
 │   ├──  css/
 |         └── About.css
 │         └── App.css
-|         └── Contact.css
-│         └── Footer.css
-|         └── Form.css
-│         └── Home.css
-|         └── Navbar.css
-│         └── PreLoader.css
-|         └── Project.css
-│         └── Resume.css
-|         └── Skills.css
-│         └── Socials.css
+|         └── Contacts
 │
 │   ├── pages/
-|         └── About.jsx
-│         └── Contact.jsx
-|         └── Home.jsx
-|         └── Home2.jsx
-│         └── Projects.jsx
-|         └── Resume.jsx
-|         └── Skills.jsx
+|         └── About.js
+│         └── Contact.js
+|         └── Home.js
+|         └── Home2.js
+│         └── Projects.js
 |         └── index.js
 |
-│   ├── App.jsx
-│   ├── index.jsx
+│   ├── App.js
+│   ├── index.js
 │   ├── vercel.json
 │
 ├── .eslintrc.json
